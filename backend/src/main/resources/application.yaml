@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: easybike
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/easybike
+    username: root
+    password: Mysql@123
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+    show-sql: true

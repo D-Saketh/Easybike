@@ -1,0 +1,451 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"Inter",sans-serif;
+}
+
+
+.container{
+
+    min-height:100vh;
+
+    background:#f8fafc;
+
+    padding:40px 60px;
+
+    color:#111827;
+
+}
+
+
+
+/* BACK BUTTON */
+
+
+.back{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:8px;
+
+    background:white;
+
+    border:1px solid #e5e7eb;
+
+    padding:12px 18px;
+
+    border-radius:12px;
+
+    cursor:pointer;
+
+    font-weight:600;
+
+    margin-bottom:30px;
+
+}
+
+
+
+.back:hover{
+
+    background:#f3f4f6;
+
+}
+
+
+
+
+
+/* MAIN */
+
+
+.main{
+
+    display:grid;
+
+    grid-template-columns:1.2fr 1fr 330px;
+
+    gap:30px;
+
+    align-items:start;
+
+}
+
+
+
+/* IMAGE */
+
+
+.imageCard{
+
+    height:500px;
+
+    background:white;
+
+    border-radius:22px;
+
+    border:1px solid #e5e7eb;
+
+    overflow:hidden;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+}
+
+
+
+.imageCard img{
+
+    width:100%;
+
+    height:100%;
+
+    object-fit:cover;
+
+}
+
+
+
+.imageCard svg{
+
+    font-size:80px;
+
+    color:#16a34a;
+
+}
+
+
+
+/* DETAILS */
+
+
+.details{
+
+    background:white;
+
+    border:1px solid #e5e7eb;
+
+    border-radius:22px;
+
+    padding:30px;
+
+}
+
+
+
+.title{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:flex-start;
+
+    margin-bottom:20px;
+
+}
+
+
+
+.title h1{
+
+    font-size:36px;
+
+    font-weight:800;
+
+}
+
+
+
+.title h2{
+
+    color:#6b7280;
+
+    font-size:20px;
+
+    margin-top:5px;
+
+    font-weight:500;
+
+}
+
+
+
+.title span{
+
+    background:#dcfce7;
+
+    color:#15803d;
+
+    padding:7px 14px;
+
+    border-radius:20px;
+
+    font-size:12px;
+
+    font-weight:700;
+
+}
+
+
+
+/* LOCATION */
+
+
+.location{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    color:#6b7280;
+
+    margin-bottom:25px;
+
+}
+
+
+
+.location svg{
+
+    color:#16a34a;
+
+}
+
+
+
+.description{
+
+    color:#6b7280;
+
+    line-height:1.6;
+
+    margin-bottom:30px;
+
+}
+
+
+
+
+
+/* FEATURES */
+
+
+.features{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:15px;
+
+}
+
+
+
+.features div{
+
+    background:#f8fafc;
+
+    border-radius:15px;
+
+    padding:18px;
+
+}
+
+
+
+.features svg{
+
+    color:#16a34a;
+
+    font-size:22px;
+
+    margin-bottom:12px;
+
+}
+
+
+
+.features p{
+
+    color:#6b7280;
+
+    font-size:13px;
+
+}
+
+
+
+.features b{
+
+    display:block;
+
+    margin-top:5px;
+
+}
+
+
+
+/* BOOKING CARD */
+
+
+.booking{
+
+    background:white;
+
+    border:1px solid #e5e7eb;
+
+    border-radius:22px;
+
+    padding:30px;
+
+}
+
+
+
+.booking p{
+
+    color:#6b7280;
+
+}
+
+
+
+.booking h1{
+
+    font-size:42px;
+
+    margin:15px 0 25px;
+
+}
+
+
+
+.booking small{
+
+    font-size:16px;
+
+    color:#6b7280;
+
+}
+
+
+
+.booking button{
+
+    width:100%;
+
+    background:#111827;
+
+    color:white;
+
+    border:none;
+
+    padding:15px;
+
+    border-radius:12px;
+
+    font-size:16px;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+
+
+.booking button:hover{
+
+    background:#16a34a;
+
+}
+
+
+
+/* STATES */
+
+
+.loading{
+
+    height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    color:#6b7280;
+
+    font-size:22px;
+
+}
+
+
+
+/* RESPONSIVE */
+
+
+@media(max-width:1200px){
+
+
+    .main{
+
+        grid-template-columns:1fr;
+
+    }
+
+
+    .imageCard{
+
+        height:400px;
+
+    }
+
+
+}
+
+
+@media(max-width:700px){
+
+
+    .container{
+
+        padding:25px;
+
+    }
+
+
+
+    .features{
+
+        grid-template-columns:1fr;
+
+    }
+
+
+
+    .title h1{
+
+        font-size:28px;
+
+    }
+
+
+}

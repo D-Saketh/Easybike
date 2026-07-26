@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+
+
+.container{
+
+    min-height:calc(100vh - 75px);
+
+    background:#f8fafc;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    padding:40px;
+
+    font-family:"Inter",sans-serif;
+
+}
+
+
+
+.card{
+
+    width:420px;
+
+    background:white;
+
+    border:1px solid #e5e7eeb;
+
+    border-radius:25px;
+
+    padding:40px;
+
+    text-align:center;
+
+}
+
+
+
+.avatar{
+
+    width:90px;
+
+    height:90px;
+
+    background:#dcfce7;
+
+    color:#16a34a;
+
+    border-radius:50%;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    margin:auto;
+
+    font-size:40px;
+
+}
+
+
+
+.card h1{
+
+    margin-top:25px;
+
+    font-size:30px;
+
+    font-weight:800;
+
+}
+
+
+
+.role{
+
+    color:#16a34a;
+
+    font-weight:700;
+
+    margin-top:8px;
+
+}
+
+
+
+.details{
+
+    margin-top:35px;
+
+    background:#f8fafc;
+
+    border-radius:16px;
+
+    padding:20px;
+
+    text-align:left;
+
+}
+
+
+
+.details div{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:12px;
+
+    margin-bottom:18px;
+
+    color:#374151;
+
+}
+
+
+
+.details div:last-child{
+
+    margin-bottom:0;
+
+}
+
+
+
+.details svg{
+
+    color:#16a34a;
+
+}
+
+
+
+.card button{
+
+    margin-top:30px;
+
+    width:100%;
+
+    padding:14px;
+
+    border:none;
+
+    border-radius:12px;
+
+    background:#111827;
+
+    color:white;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:10px;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+}
+
+
+
+.card button:hover{
+
+    background:#16a34a;
+
+}
