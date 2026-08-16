@@ -1,4 +1,4 @@
-# 🚲 EasyBike — Full Stack Bike Rental Platform
+# 🚲 EasyBike — Java Full Stack Bike Rental Platform
 
 EasyBike is a full-stack **peer-to-peer bike rental application** that allows users to rent bikes, register their own bikes for rental, and manage bookings. The platform provides separate customer and admin experiences with secure role-based access.
 
