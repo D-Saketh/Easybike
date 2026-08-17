@@ -413,21 +413,6 @@ http://localhost:5173
 
 ---
 
-# 📸 Screenshots
-
-Add screenshots of:
-
-* Login Page
-* Customer Dashboard
-* Browse Bikes
-* Bike Details
-* Booking Page
-* Booking History
-* Admin Dashboard
-* Bike Approval Management
-
----
-
 # 🎯 Key Concepts Implemented
 
 * Full-stack application development
